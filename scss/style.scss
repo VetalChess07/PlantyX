@@ -73,6 +73,12 @@ a {
    cursor: pointer;
    color: #000000;
 
+
+}
+
+a:hover {
+   color: #565656;
+   transition: 0.3s;
 }
 
 
@@ -110,7 +116,7 @@ body {
 // header
 // =====================
 .header {
-   margin: 10px auto;
+   margin: 0px auto;
    width: 100%;
    position: fixed;
    z-index: 3;
@@ -916,6 +922,13 @@ body {
    width: 100%;
 
    background: #F3F3F3;
+
+   .tools__item:hover {
+      width: 33%;
+      text-align: center;
+      border-bottom: 5px solid #000;
+   }
+
 }
 
 .footer__inner {
@@ -1244,20 +1257,45 @@ body {
       top: 0;
       left: 0;
       width: 100%;
-      height: 100%;
       padding: 15px;
-      background: #FFEFBA;
+      background: #efeeed;
       transform: translateX(-100%);
       transition: transform 0.5s;
+
+
+
+      &__nav {
+         width: 100%;
+         display: flex;
+         justify-content: center;
+      }
    }
 
    .menu.active {
       transform: translateX(0);
       z-index: 3;
+      overflow: hidden;
    }
 
    .menu li {
       list-style-type: none;
+      border: 1px dashed #000;
+      border-radius: 20px;
+      text-align: center;
+      margin: 10px 0;
+      padding: 5px;
+
+      a {
+         font-size: 20px;
+         font-family: "lora";
+      }
+   }
+
+   li:hover {
+      background-color: #565656;
+      transition: 0.3s;
+      opacity: 0.1;
+
    }
 
    .nav {
@@ -1586,8 +1624,8 @@ body {
 
    .swiper-button-next,
    .swiper-button-prev {
-      height: 15px;
-      width: 15px;
+      height: 30px;
+      width: 30px;
 
    }
 

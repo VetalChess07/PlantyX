@@ -4,10 +4,11 @@ let lineBurgerLast = document.querySelector('.burger__line_last');
 let menu = document.querySelector('.menu');
 
 burger.addEventListener('click', function () {
-   burger.classList.toggle('active')
-   lineBurgerFirst.classList.toggle('active')
-   lineBurgerLast.classList.toggle('active')
+   burger.classList.toggle('active');
+   lineBurgerFirst.classList.toggle('active');
+   lineBurgerLast.classList.toggle('active');
    menu.classList.toggle('active');
+
 });
 
 
