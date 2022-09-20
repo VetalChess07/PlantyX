@@ -23,8 +23,8 @@ const swiper = new Swiper('.swiper', {
 
    // Navigation arrows
    navigation: {
-      nextEl: '.swiper-button-prev',
-      prevEl: '.swiper-button-next',
+      nextEl: '.slider__crutch__prev',
+      prevEl: '.slider__crutch__next',
    },
 
 

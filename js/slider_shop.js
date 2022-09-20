@@ -3,8 +3,8 @@
 var galleryTop = new Swiper('.gallery-top', {
    spaceBetween: 10,
    navigation: {
-      nextEl: '.swiper-button-prev',
-      prevEl: '.swiper-button-next',
+      nextEl: '.swiper-shop__js-prev',
+      prevEl: '.swiper-shop__js-next',
 
 
    },
